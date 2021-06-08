@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          MOVILTECH STORE
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from 'react';
+// Las clases tienen un me
+class App extends React.Component{
+  render() {
+    return(
+      <div class="App">
+        <nav>
+          <ul>
+            <li> Home </li>
+            <li>Products</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+      </div>
+    )
+  }
 }
-
 export default App;
