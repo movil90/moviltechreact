@@ -1,20 +1,13 @@
-
-import './App.css';
 import React from 'react';
+import './App.css';
+
+//COMPONENTES
+import NavBar from './components/Navbar/navBar';
+import { Component } from 'react';
 // Las clases tienen un me
-class App extends React.Component{
+class App extends Component{
   render() {
-    return(
-      <div class="App">
-        <nav>
-          <ul>
-            <li> Home </li>
-            <li>Products</li>
-            <li>Contact Us</li>
-          </ul>
-        </nav>
-      </div>
-    )
+    return <NavBar />;
   }
 }
 export default App;
