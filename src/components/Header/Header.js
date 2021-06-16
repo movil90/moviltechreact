@@ -1,9 +1,7 @@
 
 import './Header.css';
-import { Button, Icon } from 'semantic-ui-react'
-
 import React, { Component } from 'react'
-import CartWidget from './CartWidget';
+import CartWidget from './CartWidget/CartWidget';
 
 class Header extends Component {
   render() {

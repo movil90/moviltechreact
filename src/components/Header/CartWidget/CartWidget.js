@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css';
+import '../Header.css';
 import { Button, Icon } from 'semantic-ui-react'
 
 function CartWidget() {

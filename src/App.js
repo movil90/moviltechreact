@@ -11,7 +11,7 @@ class App extends Component{
     return (
     <div> 
       <Header />;
-      <ItemListContainer title={'Aqui van los productos'} />
+      <ItemListContainer/>
     </div> 
     );
   }
